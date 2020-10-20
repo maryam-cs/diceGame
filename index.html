@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice Game</title>
+</head>
+
+<body onload="startDice()">
+  <script src='index.js' charset='utf-8'>
+  </script>
+
+  <center>
+    <h1 style="color:hotpink;">Dice Game</h1>
+
+    <div style="display: inline-block;border:none ;margin-top:20px">
+      <strong>***player1***</strong>
+      <br>
+      <img class="player1" src="" alt="" width="150" style="border:solid; border-color:gray;">
+    </div>
+    <div style="display: inline-block;border:none;margin-top:20px">
+      <strong>***player2***</strong>
+      <br>
+      <img class="player2" src="" alt="" width="150" style="border:solid; border-color:gray;">
+    </div>
+
+    <h2 class="result"></h2>
+    <p>
+      Click <strong>Restart</strong> to try again.
+    </p>
+    <button onclick="startDice()" style="  color:hotpink;"><strong>Restart</strong></button>
+  </center>
+</body>
+
+</html>
